@@ -1,0 +1,650 @@
+<!DOCTYPE html>
+<!--[if IEMobile 7]><html class="iem7"  lang="fr" dir="ltr"><![endif]-->
+<!--[if lte IE 6]><html class="lt-ie9 lt-ie8 lt-ie7"  lang="fr" dir="ltr"><![endif]-->
+<!--[if (IE 7)&(!IEMobile)]><html class="lt-ie9 lt-ie8"  lang="fr" dir="ltr"><![endif]-->
+<!--[if IE 8]><html class="lt-ie9"  lang="fr" dir="ltr"><![endif]-->
+<!--[if (gte IE 9)|(gt IEMobile 7)]><!--><html  lang="fr" dir="ltr"><!--<![endif]-->
+
+<head>
+  <meta charset="utf-8" />
+<link rel="shortcut icon" href="http://www.cher.cci.fr/sites/cher.cci.fr/files/cci_favicon.ico" type="image/vnd.microsoft.icon" />
+<link rel="alternate" type="application/rss+xml" title="CCI du Cher RSS" href="http://www.cher.cci.fr/rss.xml" />
+  <title>CCI du Cher</title>
+
+      <meta name="MobileOptimized" content="width">
+    <meta name="HandheldFriendly" content="true">
+    <meta name="viewport" content="width=device-width">
+    <meta http-equiv="cleartype" content="on">
+
+  <style>
+@import url("http://www.cher.cci.fr/modules/system/system.base.css?ptng0s");
+@import url("http://www.cher.cci.fr/modules/system/system.messages.css?ptng0s");
+@import url("http://www.cher.cci.fr/modules/system/system.theme.css?ptng0s");
+</style>
+<style>
+@import url("http://www.cher.cci.fr/sites/all/modules/contrib/simplenews/simplenews.css?ptng0s");
+@import url("http://www.cher.cci.fr/sites/all/modules/contrib/date/date_api/date.css?ptng0s");
+@import url("http://www.cher.cci.fr/sites/all/modules/contrib/date/date_popup/themes/datepicker.1.7.css?ptng0s");
+@import url("http://www.cher.cci.fr/modules/field/theme/field.css?ptng0s");
+@import url("http://www.cher.cci.fr/modules/node/node.css?ptng0s");
+@import url("http://www.cher.cci.fr/sites/all/modules/contrib/quiz/quiz.css?ptng0s");
+@import url("http://www.cher.cci.fr/modules/search/search.css?ptng0s");
+@import url("http://www.cher.cci.fr/modules/user/user.css?ptng0s");
+@import url("http://www.cher.cci.fr/sites/all/modules/contrib/views/css/views.css?ptng0s");
+</style>
+<style>
+@import url("http://www.cher.cci.fr/sites/all/modules/contrib/ctools/css/ctools.css?ptng0s");
+</style>
+<style>
+@import url("http://www.cher.cci.fr/sites/all/themes/ccicentre/css/wireframes.css?ptng0s");
+@import url("http://www.cher.cci.fr/sites/all/themes/ccicentre/css/layouts/responsive-sidebars.css?ptng0s");
+@import url("http://www.cher.cci.fr/sites/all/themes/ccicentre/css/tabs.css?ptng0s");
+@import url("http://www.cher.cci.fr/sites/all/themes/ccicentre/css/pages.css?ptng0s");
+@import url("http://www.cher.cci.fr/sites/all/themes/ccicentre/css/blocks.css?ptng0s");
+@import url("http://www.cher.cci.fr/sites/all/themes/ccicentre/css/navigation.css?ptng0s");
+@import url("http://www.cher.cci.fr/sites/all/themes/ccicentre/css/views-styles.css?ptng0s");
+@import url("http://www.cher.cci.fr/sites/all/themes/ccicentre/css/nodes.css?ptng0s");
+@import url("http://www.cher.cci.fr/sites/all/themes/ccicentre/css/comments.css?ptng0s");
+@import url("http://www.cher.cci.fr/sites/all/themes/ccicentre/css/forms.css?ptng0s");
+@import url("http://www.cher.cci.fr/sites/all/themes/ccicentre/css/fields.css?ptng0s");
+@import url("http://www.cher.cci.fr/sites/all/themes/ccicentre/css/print.css?ptng0s");
+@import url("http://www.cher.cci.fr/sites/all/themes/ccicentre/css/global.css?ptng0s");
+@import url("http://www.cher.cci.fr/sites/all/themes/ccicentre/master-assets/css/normalize.css?ptng0s");
+@import url("http://www.cher.cci.fr/sites/all/themes/ccicentre/master-assets/css/jquery.fancybox.css?ptng0s");
+@import url("http://www.cher.cci.fr/sites/all/themes/ccicentre/master-assets/css/main.css?ptng0s");
+</style>
+
+  <script>window.google_analytics_uacct = "UA-51129882-1";</script>
+<script src="//code.jquery.com/jquery-1.10.2.min.js"></script>
+<script>window.jQuery || document.write("<script src='/sites/all/modules/contrib/jquery_update/replace/jquery/1.10/jquery.min.js'>\x3C/script>")</script>
+<script src="http://www.cher.cci.fr/misc/jquery.once.js?v=1.2"></script>
+<script src="http://www.cher.cci.fr/misc/drupal.js?ptng0s"></script>
+<script src="http://www.cher.cci.fr/sites/cher.cci.fr/files/languages/fr_6aGUVyj4JQIaur7_0VvEo4yrqEWO8u8XY5vUgPBgnRQ.js?ptng0s"></script>
+<script src="http://www.cher.cci.fr/sites/all/modules/contrib/google_analytics/googleanalytics.js?ptng0s"></script>
+<script>var _gaq = _gaq || [];_gaq.push(["_setAccount", "UA-51129882-1"]);_gaq.push(["_trackPageview"]);(function() {var ga = document.createElement("script");ga.type = "text/javascript";ga.async = true;ga.src = ("https:" == document.location.protocol ? "https://ssl" : "http://www") + ".google-analytics.com/ga.js";var s = document.getElementsByTagName("script")[0];s.parentNode.insertBefore(ga, s);})();</script>
+<script src="http://www.cher.cci.fr/sites/all/themes/ccicentre/master-assets/js/vendor/modernizr-2.6.2.min.js?ptng0s"></script>
+<script src="http://www.cher.cci.fr/sites/all/themes/ccicentre///ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js?ptng0s"></script>
+<script src="http://www.cher.cci.fr/sites/all/themes/ccicentre/master-assets/js/vendor/jquery-1.8.3.min.js?ptng0s"></script>
+<script src="http://www.cher.cci.fr/sites/all/themes/ccicentre/master-assets/js/jquery.scrollto.js?ptng0s"></script>
+<script src="http://www.cher.cci.fr/sites/all/themes/ccicentre/master-assets/js/jquery.fancybox.pack.js?ptng0s"></script>
+<script src="http://www.cher.cci.fr/sites/all/themes/ccicentre/master-assets/js/jquery.localscroll.js?ptng0s"></script>
+<script src="http://www.cher.cci.fr/sites/all/themes/ccicentre/master-assets/js/plugins.js?ptng0s"></script>
+<script src="http://www.cher.cci.fr/sites/all/themes/ccicentre/master-assets/js/main.js?ptng0s"></script>
+<script src="http://www.cher.cci.fr/sites/all/themes/ccicentre/master-assets/js/StickyScroller.min.js?ptng0s"></script>
+<script src="http://www.cher.cci.fr/sites/all/themes/ccicentre/master-assets/js/GetSet.js?ptng0s"></script>
+<script src="http://www.cher.cci.fr/sites/all/themes/ccicentre/master-assets/js/single.js?ptng0s"></script>
+<script src="http://www.cher.cci.fr/sites/all/themes/ccicentre/js/script.js?ptng0s"></script>
+<script src="http://www.cher.cci.fr/sites/all/libraries/jquery.columnizer/src/jquery.columnizer.js?ptng0s"></script>
+<script>jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"ccicentre","theme_token":"3NG0pEtU5WFUUupdVD1lhpvHWiStylloXcyQjudspWA","js":{"0":1,"\/\/code.jquery.com\/jquery-1.10.2.min.js":1,"1":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"public:\/\/languages\/fr_6aGUVyj4JQIaur7_0VvEo4yrqEWO8u8XY5vUgPBgnRQ.js":1,"sites\/all\/modules\/contrib\/google_analytics\/googleanalytics.js":1,"2":1,"sites\/all\/themes\/ccicentre\/master-assets\/js\/vendor\/modernizr-2.6.2.min.js":1,"sites\/all\/themes\/ccicentre\/\/\/ajax.googleapis.com\/ajax\/libs\/jquery\/1.8.3\/jquery.min.js":1,"sites\/all\/themes\/ccicentre\/master-assets\/js\/vendor\/jquery-1.8.3.min.js":1,"sites\/all\/themes\/ccicentre\/master-assets\/js\/jquery.scrollto.js":1,"sites\/all\/themes\/ccicentre\/master-assets\/js\/jquery.fancybox.pack.js":1,"sites\/all\/themes\/ccicentre\/master-assets\/js\/jquery.localscroll.js":1,"sites\/all\/themes\/ccicentre\/master-assets\/js\/plugins.js":1,"sites\/all\/themes\/ccicentre\/master-assets\/js\/main.js":1,"sites\/all\/themes\/ccicentre\/master-assets\/js\/StickyScroller.min.js":1,"sites\/all\/themes\/ccicentre\/master-assets\/js\/GetSet.js":1,"sites\/all\/themes\/ccicentre\/master-assets\/js\/single.js":1,"sites\/all\/themes\/ccicentre\/js\/script.js":1,"sites\/all\/libraries\/jquery.columnizer\/src\/jquery.columnizer.js":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"sites\/all\/modules\/contrib\/simplenews\/simplenews.css":1,"sites\/all\/modules\/contrib\/date\/date_api\/date.css":1,"sites\/all\/modules\/contrib\/date\/date_popup\/themes\/datepicker.1.7.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"sites\/all\/modules\/contrib\/quiz\/quiz.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/contrib\/views\/css\/views.css":1,"sites\/all\/modules\/contrib\/ctools\/css\/ctools.css":1,"sites\/all\/themes\/ccicentre\/system.menus.css":1,"sites\/all\/themes\/ccicentre\/css\/normalize.css":1,"sites\/all\/themes\/ccicentre\/css\/wireframes.css":1,"sites\/all\/themes\/ccicentre\/css\/layouts\/responsive-sidebars.css":1,"sites\/all\/themes\/ccicentre\/css\/page-backgrounds.css":1,"sites\/all\/themes\/ccicentre\/css\/tabs.css":1,"sites\/all\/themes\/ccicentre\/css\/pages.css":1,"sites\/all\/themes\/ccicentre\/css\/blocks.css":1,"sites\/all\/themes\/ccicentre\/css\/navigation.css":1,"sites\/all\/themes\/ccicentre\/css\/views-styles.css":1,"sites\/all\/themes\/ccicentre\/css\/nodes.css":1,"sites\/all\/themes\/ccicentre\/css\/comments.css":1,"sites\/all\/themes\/ccicentre\/css\/forms.css":1,"sites\/all\/themes\/ccicentre\/css\/fields.css":1,"sites\/all\/themes\/ccicentre\/css\/print.css":1,"sites\/all\/themes\/ccicentre\/css\/global.css":1,"sites\/all\/themes\/ccicentre\/master-assets\/css\/normalize.css":1,"sites\/all\/themes\/ccicentre\/master-assets\/css\/jquery.fancybox.css":1,"sites\/all\/themes\/ccicentre\/master-assets\/css\/main.css":1}},"googleanalytics":{"trackOutbound":1,"trackMailto":1,"trackDownload":1,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls|xml|z|zip"},"urlIsAjaxTrusted":{"\/":true}});</script>
+
+
+
+      <!--[if lt IE 9]>
+    <script src="/sites/all/themes/zen/js/html5-respond.js"></script>
+    <![endif]-->
+    <script type="text/javascript" src="/sites/all/themes/ccicentre/tacjs/tarteaucitron.js"></script>
+  <script type="text/javascript">
+function tac_centre(UA, mentions) {
+    console.log("UA");
+    tarteaucitron.init({"privacyUrl": "","hashtag": "#tarteaucitron","cookieName": "tarteaucitron","orientation": "bottom","showAlertSmall": true,"cookieslist": true,"showIcon": false,"iconPosition": "BottomRight","adblocker": false,"DenyAllCta" : true,"AcceptAllCta" : true,"highPrivacy": true,"handleBrowserDNTRequest": false,"removeCredit": false,"moreInfoLink": true,"useExternalCss": false,"readmoreLink": mentions,"mandatory": true,});
+    tarteaucitron.user.gajsUa = UA;
+    tarteaucitron.user.gajsMore = function () { _gaq.push(["_gat._anonymizeIp"]) };
+    (tarteaucitron.job = tarteaucitron.job || []).push('gajs');
+}
+function tac_centre4(UA, mentions) {
+    console.log("GA4");
+    tarteaucitron.init({"privacyUrl": "","hashtag": "#tarteaucitron","cookieName": "tarteaucitron","orientation": "bottom","showAlertSmall": true,"cookieslist": true,"showIcon": false,"iconPosition": "BottomRight","adblocker": false,"DenyAllCta" : true,"AcceptAllCta" : true,"highPrivacy": true,"handleBrowserDNTRequest": false,"removeCredit": false,"moreInfoLink": true,"useExternalCss": false,"readmoreLink": mentions,"mandatory": true,});
+    tarteaucitron.user.gtagUa = UA;
+    tarteaucitron.user.gtagMore = function () { /* add here your optionnal gtag() */ };
+    (tarteaucitron.job = tarteaucitron.job || []).push('gtag');
+}
+
+var domain = window.location.hostname; 
+      	switch (domain) {
+	  case 'www.touraine.cci.fr':
+           tac_centre('UA-73065630-1', '/mentions-l%C3%A9gales')
+           break;
+	  case 'www.loir-et-cher.cci.fr':
+           tac_centre('UA-57159612-1', '/mentions-l%C3%A9gales')
+	   break;
+      case 'loiret.cci.fr':
+	  case 'www.loiret.cci.fr':
+          tac_centre4('G-GE93G6BVD3', '/mentions-légales-site-cci-loiret')
+	   break;
+	  case 'www.cher.cci.fr':
+	   tac_centre('UA-51129882-1', '/mentions-l%C3%A9gales')
+	   break;
+	  case 'centre.cci.fr':
+	  case 'www.centre.cci.fr':
+	   tac_centre('UA-61494398-1', '/mentions-l%C3%A9gales')
+	  break;  
+       }
+</script>
+<head>
+      <p id="skip-link">
+      <a href="#main-menu" class="element-invisible element-focusable">Jump to navigation</a>
+    </p>
+      <div id="page">
+
+	<header id="header" role="banner">
+
+		<div id="header-bg-left"></div>
+        <div id="header-bg-right"></div>
+		<div id="header-content" class="container clearfix">
+
+						  <div id="site-name">
+									<div class="logo-cci-box">
+						<a href="/" title="Retour à l&#039;accueil"><img src="http://www.cher.cci.fr/sites/cher.cci.fr/files/styles/cci_logo/public/cci/logo//Logo-CCI18-323.gif?itok=2fn0x988" width="164" height="62" alt="" /></a>					</div>
+								<a id="morbihan" href="/" title="Accueil" rel="home"><span>CCI du Cher</span></a>
+			  </div>
+					
+							<img class="map-region" src="http://www.cher.cci.fr/sites/cher.cci.fr/files/styles/cci_carte_departement/public/cci/departement//Site%20CCI_carte%20Cher-01.jpg?itok=2alV5H6k" width="83" height="102" alt="" />						
+			<div id="explore">
+				<span>Explorez le réseau des<br /> sites CCI</span>
+				<ul id="explore-select">
+	<li>
+		<a href="#" id="explore-trigger">CCI Centre</a>
+		<ul class="menu" style="display: none;">
+							<li class="leaf"><a href="http://www.centre.cci.fr" target="_blank">CCI Centre-Val de Loire</a></li>
+							<li class="leaf"><a href="http://www.cher.cci.fr" target="_blank">CCI Cher</a></li>
+							<li class="leaf"><a href="http://www.cci28.fr" target="_blank">CCI Eure-et-Loir</a></li>
+							<li class="leaf"><a href="http://www.indre.cci.fr" target="_blank">CCI Indre</a></li>
+							<li class="leaf"><a href="http://www.touraine.cci.fr" target="_blank">CCI Touraine</a></li>
+							<li class="leaf"><a href="http://www.loir-et-cher.cci.fr" target="_blank">CCI Loir-et-Cher</a></li>
+							<li class="leaf"><a href="http://www.loiret.cci.fr" target="_blank">CCI Loiret</a></li>
+					</ul>
+	</li>
+</ul>			</div>
+
+			<div id="member-account">
+				<p>CCI du Cher à votre service</p><p>02 48 67 80 80<br><a href="https://maps.app.goo.gl/UWCzhoHeLjUihce29">Plan d'accès</a><br>Horaires : 8h30 à 12h&nbsp;<br>&nbsp;</p><p>&nbsp;</p>			</div>
+			
+			<div id="responsive-menu-button">
+				<a href="#nav" class="meanmenu-reveal meanclose" style="left: 0px; right: auto; text-align: center; text-indent: 0px;">
+					<img alt="Menu" src="sites/all/themes/ccicentre/images/picto_menu-smartphone.png">
+					<span class="petiteTablette">Navigation</span>
+				</a>
+			</div>
+			
+			
+		</div>
+
+		
+	</header>
+	
+	  <div id="navigation" class="region region-navigation-main">
+    <div class="container clearfix"><div id="block-menu-block-2" class="block block-menu-block first odd" role="navigation">
+
+        <h2 class="block__title block-title">Navigation principale</h2>
+    
+  <div class="menu-block-wrapper menu-block-2 menu-name-main-menu parent-mlid-0 menu-level-1">
+  <ul class="menu niv1"><li class="menu__item is-parent is-leaf first leaf has-children menu-mlid-1067"><a href="/creation-reprise-cession" class="menu__link"><span>Création reprise et <br/>cession d'entreprise</span></a></li>
+<li class="menu__item is-parent is-leaf leaf has-children menu-mlid-1081"><a href="/developpement-entreprise" class="menu__link"><span>Développement de votre entreprise</span></a></li>
+<li class="menu__item is-parent is-leaf leaf has-children menu-mlid-1270"><a href="/formation" class="menu__link"><span>Formation</span></a></li>
+<li class="menu__item is-parent is-leaf leaf has-children menu-mlid-1404"><a href="/information-economique" class="menu__link"><span>Information <br/>Economique</span></a></li>
+<li class="menu__item is-parent is-leaf last leaf has-children menu-mlid-1403"><a href="/connaitre-cci-cher" class="menu__link"><span>Votre CCI</span></a></li>
+</ul></div>
+
+</div>
+<div id="block-menu-menu-menu-profil-internaute" class="block block-menu even" role="navigation">
+	<ul id="profil">
+		<li>
+			<a href="#" id="youare">Vous êtes</a>
+			<ul class="menu niv1"><li class="menu__item is-leaf first leaf"><a href="/devenir-chef-entreprise" target="_blank" class="menu__link">Créateur</a></li>
+<li class="menu__item is-leaf leaf"><a href="/vous-%C3%AAtes-repreneur" class="menu__link">Repreneur</a></li>
+<li class="menu__item is-leaf leaf"><a href="/vous-%C3%AAtes-c%C3%A9dant" class="menu__link">Cédant</a></li>
+<li class="menu__item is-leaf leaf"><a href="/vous-etes-commer%C3%A7ant" class="menu__link">Commerçant</a></li>
+<li class="menu__item is-leaf leaf"><a href="/d%C3%A9veloppez-votre-entreprise-industrielle" class="menu__link">Industriel</a></li>
+<li class="menu__item is-leaf leaf"><a href="/vous-%C3%AAtes-une-soci%C3%A9t%C3%A9-de-services" class="menu__link">Société de services</a></li>
+<li class="menu__item is-leaf leaf"><a href="/professionnels-du-tourisme" class="menu__link">Professionnel du tourisme</a></li>
+<li class="menu__item is-leaf leaf"><a href="/vous-%C3%AAtes-salari%C3%A9" class="menu__link">Salarié</a></li>
+<li class="menu__item is-leaf last leaf"><a href="/vous-%C3%AAtes-une-collectivit%C3%A9-une-administration" class="menu__link">Une collectivité, une administration</a></li>
+</ul>		</li>
+	</ul>
+</div><div id="block-menu-menu-menu-header-social" class="block block-menu odd" role="navigation">
+
+        <h2 class="block__title block-title">Outils réseaux sociaux</h2>
+    
+  <ul class="menu niv1"><li class="menu__item is-leaf first leaf"><a href="http://www.facebook.fr/cciducher" class="menu__link picto-facebook"><img src="http://www.cher.cci.fr/sites/cher.cci.fr/files/styles/pictogramme_menu/public/social-network/facebook-grey.png?itok=NNjb2DwU" width="8" height="15" alt="" /></a></li>
+<li class="menu__item is-leaf last leaf"><a href="http://www.twitter.fr/CCIduCHER" class="menu__link picto-twitter"><img src="http://www.cher.cci.fr/sites/cher.cci.fr/files/styles/pictogramme_menu/public/social-network/twitter-grey.png?itok=lfuIGEtt" width="19" height="15" alt="" /></a></li>
+</ul>
+</div>
+<div id="block-search-form" class="block block-search last even" role="search">
+
+      
+  <form action="/" method="post" id="search-block-form" accept-charset="UTF-8"><div><div class="container-inline">
+      <h2 class="element-invisible">Formulaire de recherche</h2>
+    <div class="form-item form-type-textfield form-item-search-block-form">
+  <label class="element-invisible" for="edit-search-block-form--2">Rechercher </label>
+ <input title="Indiquer les termes à rechercher" placeholder="Rechercher" type="text" id="edit-search-block-form--2" name="search_block_form" value="" size="15" maxlength="128" class="form-text" />
+</div>
+<div class="form-actions form-wrapper" id="edit-actions"><input type="submit" id="edit-submit" name="op" value="Rechercher" class="form-submit" /></div><input type="hidden" name="form_build_id" value="form-HnCXBW2ZadjE3hKd9Xg511Hc4fKZfj4QwjompL-I1K8" />
+<input type="hidden" name="form_id" value="search_block_form" />
+</div>
+</div></form>
+</div>
+</div>
+  </div>  
+
+<div id="navigation-responsive" class="clearfix mean-container">
+	<div class="mean-bar">
+		<nav class="mean-nav">
+			
+			<ul class="menu niv1"><li class="menu__item is-expanded first expanded have-child"><a href="/creation-reprise-cession" class="menu__link"><span>Création reprise et <br/>cession d'entreprise</span></a><span class="mobileToggle close"></span><ul class="menu niv2"><li class="menu__item is-expanded first expanded have-child"><a href="/parcours-entreprendre-decouvrez-entrepreneuriat" class="menu__link"><span>Découvrez l'entrepreneuriat</span></a><span class="mobileToggle close"></span><ul class="menu niv3"><li class="menu__item is-leaf first leaf"><a href="/parcours-entreprendre-informations-collectives" class="menu__link"><span>Réunions d'informations collectives</span></a></li>
+<li class="menu__item is-leaf last leaf"><a href="/cci-business-builder" class="menu__link"><span>CCI Business Builder</span></a></li>
+</ul><a class="mean-expand" href="#" style="font-size: auto">+</a></li>
+<li class="menu__item is-expanded expanded have-child"><a href="/creer-votre-entreprise" class="menu__link"><span>Formez-vous à la création / reprise !</span></a><span class="mobileToggle close"></span><ul class="menu niv3"><li class="menu__item is-leaf first leaf"><a href="/creation-entreprise-5-jours-pour-entreprendre" class="menu__link"><span>5 jours pour Entreprendre</span></a></li>
+<li class="menu__item is-leaf leaf"><a href="/parcours-entreprendre-formation-creation-reprise-280h" class="menu__link"><span>280h : 40 jours pour optimiser vos chances de réussite</span></a></li>
+<li class="menu__item is-leaf leaf"><a href="/parcours-entreprendre-micro-entrepreneur" class="menu__link"><span>Parcours Micro-entrepreneur</span></a></li>
+<li class="menu__item is-leaf last leaf"><a href="/parcours-entreprendre-pass-crea" class="menu__link"><span>Pass'Créa</span></a></li>
+</ul><a class="mean-expand" href="#" style="font-size: auto">+</a></li>
+<li class="menu__item is-expanded expanded have-child"><a href="/parcours-entreprendre-aides" class="menu__link"><span>Financez votre projet</span></a><span class="mobileToggle close"></span><ul class="menu niv3"><li class="menu__item is-leaf first last leaf"><a href="/les-aides-entreprises" class="menu__link"><span>Les aides pour vous aider à avancer dans votre projet</span></a></li>
+</ul><a class="mean-expand" href="#" style="font-size: auto">+</a></li>
+<li class="menu__item is-expanded expanded have-child"><a href="/rendez-vous-experts" class="menu__link"><span>Rendez-vous experts</span></a><span class="mobileToggle close"></span><ul class="menu niv3"><li class="menu__item is-leaf first leaf"><a href="/permanences-conseils-avocats" class="menu__link"><span>Permanences Conseils Avocats</span></a></li>
+<li class="menu__item is-leaf last leaf"><a href="/permanences-baux-commerciaux" class="menu__link"><span>Permanences Conseils Baux Commerciaux</span></a></li>
+</ul><a class="mean-expand" href="#" style="font-size: auto">+</a></li>
+<li class="menu__item is-expanded expanded have-child"><a href="/parcours-entreprendre-transmission" class="menu__link"><span>Transmission</span></a><span class="mobileToggle close"></span><ul class="menu niv3"><li class="menu__item is-leaf first last leaf"><a href="/parcours-repreneur-cedant" class="menu__link"><span>Parcours repreneur / cédant</span></a></li>
+</ul><a class="mean-expand" href="#" style="font-size: auto">+</a></li>
+<li class="menu__item is-expanded last expanded have-child"><a href="/parcours-entreprendre-formalites" class="menu__link"><span>Formalités</span></a><span class="mobileToggle close"></span><ul class="menu niv3"><li class="menu__item is-collapsed first collapsed"><a href="/accomplir-formalites-immatriculation-radiation" class="menu__link"><span>Accomplir vos formalités d'immatriculation et de radiation</span></a></li>
+<li class="menu__item is-leaf last leaf"><a href="/ChamberSign" class="menu__link"><span>ChamberSign</span></a></li>
+</ul><a class="mean-expand" href="#" style="font-size: auto">+</a></li>
+</ul><a class="mean-expand" href="#" style="font-size: auto">+</a></li>
+<li class="menu__item is-expanded expanded have-child"><a href="/developpement-entreprise" class="menu__link"><span>Développement de votre entreprise</span></a><span class="mobileToggle close"></span><ul class="menu niv2"><li class="menu__item is-leaf first leaf"><a href="/financement-developpement" class="menu__link"><span>Financer votre développement</span></a></li>
+<li class="menu__item is-leaf leaf"><a href="/the-place-by-cci18" class="menu__link"><span>The Place by CCI18</span></a></li>
+<li class="menu__item is-expanded expanded have-child"><a href="/innovation" class="menu__link"><span>Développer votre innovation</span></a><span class="mobileToggle close"></span><ul class="menu niv3"><li class="menu__item is-leaf first leaf"><a href="/cci-innovation-services-cher" class="menu__link"><span>CCI Innovation Services Cher</span></a></li>
+<li class="menu__item is-leaf leaf"><a href="/liens-utiles-0" class="menu__link"><span>Liens utiles</span></a></li>
+<li class="menu__item is-leaf last leaf"><a href="/permanences-propriete-industrielle" class="menu__link"><span>Permanences propriété industrielle</span></a></li>
+</ul><a class="mean-expand" href="#" style="font-size: auto">+</a></li>
+<li class="menu__item is-expanded expanded have-child"><a href="/industrie-du-futur" class="menu__link"><span>Industrie du Futur</span></a><span class="mobileToggle close"></span><ul class="menu niv3"><li class="menu__item is-leaf first leaf"><a href="/ateliers-du-futur-rencontres-inter-entreprises" class="menu__link"><span>Ateliers du Futur, rencontres inter-entreprises</span></a></li>
+<li class="menu__item is-leaf leaf"><a href="/groupe-lean-management" class="menu__link"><span>Groupe LEAN Management</span></a></li>
+<li class="menu__item is-leaf leaf"><a href="/scan-industrie-du-futur" class="menu__link"><span>SCAN Industrie du Futur</span></a></li>
+<li class="menu__item is-leaf last leaf"><a href="/serious-game-industrie-futur" class="menu__link"><span>Serious Game Industrie du Futur</span></a></li>
+</ul><a class="mean-expand" href="#" style="font-size: auto">+</a></li>
+<li class="menu__item is-expanded expanded have-child"><a href="/accompagner-la-gestion-de-vos-rh-et-de-vos-recrutements" class="menu__link"><span>Accompagner la gestion de vos RH et de vos recrutements</span></a><span class="mobileToggle close"></span><ul class="menu niv3"><li class="menu__item is-leaf first leaf"><a href="/reseau-dynamique-rh" class="menu__link"><span>Réseau Dynamique RH</span></a></li>
+<li class="menu__item is-leaf last leaf"><a href="/aide-emploi-ardan" class="menu__link"><span>Aide à l'emploi pour de nouvelles activités : ARDAN</span></a></li>
+</ul><a class="mean-expand" href="#" style="font-size: auto">+</a></li>
+<li class="menu__item is-expanded expanded have-child"><a href="/economie-numerique" class="menu__link"><span>Se développer avec l'économie numérique</span></a><span class="mobileToggle close"></span><ul class="menu niv3"><li class="menu__item is-leaf first leaf"><a href="/ateliers-numeriques" class="menu__link"><span>Ateliers numériques</span></a></li>
+<li class="menu__item is-leaf last leaf"><a href="/diagnostics-accompagnements-numeriques" class="menu__link"><span>Diagnostics et accompagnements numériques</span></a></li>
+</ul><a class="mean-expand" href="#" style="font-size: auto">+</a></li>
+<li class="menu__item is-leaf leaf"><a href="/integrer-reseau-entreprises" class="menu__link"><span>Intégrer un réseau économique</span></a></li>
+<li class="menu__item is-expanded expanded have-child"><a href="/se-developper-international" class="menu__link"><span>Se développer à l'international</span></a><span class="mobileToggle close"></span><ul class="menu niv3"><li class="menu__item is-leaf first leaf"><a href="/ccec" class="menu__link"><span>CCEC</span></a></li>
+<li class="menu__item is-leaf leaf"><a href="/formalites-export" class="menu__link"><span>Formalités export</span></a></li>
+<li class="menu__item is-leaf leaf"><a href="http://www.centre.cci.fr/information-et-conseil-sur-les-questions-europ%C3%A9ennes" target="_blank" class="menu__link"><span>Information et conseil sur les questions européennes</span></a></li>
+<li class="menu__item is-leaf last leaf"><a href="/brexit" class="menu__link"><span>Brexit : Une nouvelle frontière</span></a></li>
+</ul><a class="mean-expand" href="#" style="font-size: auto">+</a></li>
+<li class="menu__item is-expanded expanded have-child"><a href="/developper-activites-commerce-tourisme" class="menu__link"><span>Développer les activités du commerce et du tourisme</span></a><span class="mobileToggle close"></span><ul class="menu niv3"><li class="menu__item is-leaf first leaf"><a href="/carte-commercant-ambulant" class="menu__link"><span>Carte de commerçant ambulant</span></a></li>
+<li class="menu__item is-expanded expanded have-child"><a href="/accessibilite" class="menu__link"><span>Accessibilité</span></a><span class="mobileToggle close"></span><ul class="menu niv4"><li class="menu__item is-leaf first last leaf"><a href="/registre-public-accessibilite" class="menu__link"><span>Registre public d'accessibilité</span></a></li>
+</ul><a class="mean-expand" href="#" style="font-size: auto">+</a></li>
+<li class="menu__item is-leaf leaf"><a href="/fond-territorial-accessibilite" class="menu__link"><span>Fonds Territorial d’Accessibilité</span></a></li>
+<li class="menu__item is-leaf leaf"><a href="/accompagnement-hotellerie-rurale" class="menu__link"><span>Aide à l'accompagnement de l'hôtellerie rurale</span></a></li>
+<li class="menu__item is-leaf last leaf"><a href="/securite-commerces" class="menu__link"><span>Sécurité Commerces</span></a></li>
+</ul><a class="mean-expand" href="#" style="font-size: auto">+</a></li>
+<li class="menu__item is-expanded expanded have-child"><a href="/ameliorer-performance" class="menu__link"><span>Améliorer la performance</span></a><span class="mobileToggle close"></span><ul class="menu niv3"><li class="menu__item is-leaf first leaf"><a href="/mise-en-reseaux" class="menu__link"><span>Mise en réseaux</span></a></li>
+<li class="menu__item is-leaf leaf"><a href="/offre-ensembliere" class="menu__link"><span>Accompagnement au développement d'une offre ensemblière</span></a></li>
+<li class="menu__item is-leaf last leaf"><a href="/ecologie-industrielle-territoriale" class="menu__link"><span>Mutualiser vos ressources et vos moyens</span></a></li>
+</ul><a class="mean-expand" href="#" style="font-size: auto">+</a></li>
+<li class="menu__item is-leaf leaf"><a href="/effectuer-formalites-modifications" class="menu__link"><span>Effectuer vos formalités de modification</span></a></li>
+<li class="menu__item is-leaf leaf"><a href="/accelerez-vos-transitions" class="menu__link"><span>ACCÉLÉREZ VOS TRANSITIONS</span></a></li>
+<li class="menu__item is-leaf leaf"><a href="/grand-carenage" class="menu__link"><span>CCI BUSINESS : ACCEDEZ AUX MARCHES DU NUCLEAIRE</span></a></li>
+<li class="menu__item is-expanded last expanded have-child"><a href="/developpement-durable" class="menu__link"><span>Développement durable</span></a><span class="mobileToggle close"></span><ul class="menu niv3"><li class="menu__item is-leaf first leaf"><a href="/flash-diag-360" class="menu__link"><span>Flash diag 360</span></a></li>
+<li class="menu__item is-leaf leaf"><a href="/flash-diag-dechets" class="menu__link"><span>Flash diag déchets</span></a></li>
+<li class="menu__item is-leaf leaf"><a href="/flash-diag-energie" class="menu__link"><span>Flash diag énergie</span></a></li>
+<li class="menu__item is-leaf leaf"><a href="/flash-diag-rse" class="menu__link"><span>Flash-diag RSE</span></a></li>
+<li class="menu__item is-leaf last leaf"><a href="/flash-diag-%C3%A9coconception" class="menu__link"><span>Flash-diag écoconception</span></a></li>
+</ul><a class="mean-expand" href="#" style="font-size: auto">+</a></li>
+</ul><a class="mean-expand" href="#" style="font-size: auto">+</a></li>
+<li class="menu__item is-expanded expanded have-child"><a href="/formation" class="menu__link"><span>Formation</span></a><span class="mobileToggle close"></span><ul class="menu niv2"><li class="menu__item is-collapsed first collapsed"><a href="/cci-formation-18" class="menu__link"><span>CCI Formation18</span></a></li>
+<li class="menu__item is-leaf leaf"><a href="/mediation-apprentissage" class="menu__link"><span>Médiation de l'apprentissage</span></a></li>
+<li class="menu__item is-leaf leaf"><a href="https://www.estacom.fr/" class="menu__link"><span>Estacom</span></a></li>
+<li class="menu__item is-leaf leaf"><a href="http://www.ecole-curien.fr/" class="menu__link"><span>CFSA Hubert Curien</span></a></li>
+<li class="menu__item is-leaf leaf"><a href="/residence-etudiante-louis-mallet" class="menu__link"><span>Résidence étudiante Louis Mallet</span></a></li>
+<li class="menu__item is-leaf leaf"><a href="/nouveau-campus-cci" class="menu__link"><span>Nouveau Campus CCI</span></a></li>
+<li class="menu__item is-leaf last leaf"><a href="/taxe-dapprentissage-2024" class="menu__link"><span>Taxe d'apprentissage 2024</span></a></li>
+</ul><a class="mean-expand" href="#" style="font-size: auto">+</a></li>
+<li class="menu__item is-expanded expanded have-child"><a href="/information-economique" class="menu__link"><span>Information <br/>Economique</span></a><span class="mobileToggle close"></span><ul class="menu niv2"><li class="menu__item is-expanded first expanded have-child"><a href="/aides-entreprises-coronavirus" class="menu__link"><span>[Covid-19] Aides aux entreprises</span></a><span class="mobileToggle close"></span><ul class="menu niv3"><li class="menu__item is-leaf first leaf"><a href="/covid19-delais-paiement-echeances-sociales-fiscales" class="menu__link"><span>Délais de paiement d'échéances sociales et/ou fiscales</span></a></li>
+<li class="menu__item is-leaf leaf"><a href="/covid19-fonds-solidarit%C3%A9" class="menu__link"><span>Fonds de solidarité</span></a></li>
+<li class="menu__item is-leaf leaf"><a href="/covid19-pge" class="menu__link"><span>Prêt garanti par l'Etat</span></a></li>
+<li class="menu__item is-leaf leaf"><a href="/covid19-remises-impots-directs" class="menu__link"><span>Remises d'impôts directs</span></a></li>
+<li class="menu__item is-leaf last leaf"><a href="/covid19-report-factures" class="menu__link"><span>Report de paiement des factures</span></a></li>
+</ul><a class="mean-expand" href="#" style="font-size: auto">+</a></li>
+<li class="menu__item is-leaf leaf"><a href="/fichiers-entreprises" class="menu__link"><span>Fichiers d'entreprises</span></a></li>
+<li class="menu__item is-expanded last expanded have-child"><a href="/abonnements-newsletters" class="menu__link"><span>S'abonner à nos newsletters</span></a><span class="mobileToggle close"></span><ul class="menu niv3"><li class="menu__item is-leaf first leaf"><a href="/flash-info-cci-18" class="menu__link"><span>Flash-info CCI 18</span></a></li>
+<li class="menu__item is-leaf leaf"><a href="/newsletter-ateliers-the-place-by-cci18" class="menu__link"><span>Newsletter Ateliers The Place by CCI18</span></a></li>
+<li class="menu__item is-leaf leaf"><a href="/newsletter-ateliers-numeriques" class="menu__link"><span>Newsletter Ateliers numériques</span></a></li>
+<li class="menu__item is-leaf leaf"><a href="/newsletter-matin%C3%A9es-rh" class="menu__link"><span>Newsletter Matinées RH</span></a></li>
+<li class="menu__item is-leaf last leaf"><a href="/newsletter-tourisme" class="menu__link"><span>Newsletter Tourisme</span></a></li>
+</ul><a class="mean-expand" href="#" style="font-size: auto">+</a></li>
+</ul><a class="mean-expand" href="#" style="font-size: auto">+</a></li>
+<li class="menu__item is-expanded last expanded have-child"><a href="/connaitre-cci-cher" class="menu__link"><span>Votre CCI</span></a><span class="mobileToggle close"></span><ul class="menu niv2"><li class="menu__item is-leaf first leaf"><a href="/bureau-cci-18" class="menu__link"><span>Bureau de la CCI 18</span></a></li>
+<li class="menu__item is-leaf leaf"><a href="/membres-titulaires-cci-18" class="menu__link"><span>Membres titulaires de la CCI 18</span></a></li>
+<li class="menu__item is-leaf leaf"><a href="/membres-associes-cci-18" class="menu__link"><span>Membres associés de la CCI 18</span></a></li>
+<li class="menu__item is-leaf leaf"><a href="/conseillers-techniques-cci-18" class="menu__link"><span>Conseillers techniques de la CCI 18</span></a></li>
+<li class="menu__item is-leaf leaf"><a href="/comptes-annuels" class="menu__link"><span>Comptes annuels</span></a></li>
+<li class="menu__item is-leaf leaf"><a href="/subventions-associations" class="menu__link"><span>Subventions accordées aux associations</span></a></li>
+<li class="menu__item is-leaf last leaf"><a href="/consulter-appels-offres" class="menu__link"><span>Consulter les appels d'offres</span></a></li>
+</ul><a class="mean-expand" href="#" style="font-size: auto">+</a></li>
+</ul>		
+		</nav>
+	</div>
+</div>	
+	
+	
+		
+	<div id="sub-navigation" class="hidden clearfix">
+		<div class="container clearfix" id="menu-item-1">
+			<!-- rendu du menu de niveau 2 -->
+						
+			<!-- rendu du menu de niveau 3 -->
+						
+			<!-- rendu du menu de niveau 4 -->
+						
+					</div>
+
+		<div id="breadcrumbs" class="clearfix"><a href="javascript:;"></a></div>		
+	</div> <!-- End Sub-navigation-->
+	
+		<div id="content">
+												<div id="node-455" class="node node-super-carrousel node-promoted view-mode-full clearfix">
+
+	<div class="container clearfix">
+
+		<!-- Caroussel Actus -->
+		<h3>A la une</h3>
+		
+		<!-- Navigation -->
+				<!-- Contenu principal -->
+		<div class="grid slide-panel" id="slide-news-content">
+		
+									<div class="panel" id="panel-news-1">
+				<!-- Navigation intérieure -->
+													
+										<ul class="sub-nav-panel" id="slide-news-sub-1">
+												<li class="current"><a href="#panel-news-visuel-1">&nbsp;</a></li>
+												<li class=""><a href="#panel-news-visuel-2">&nbsp;</a></li>
+											</ul>
+															<div class="sub-grid" id="slide-news-sub-content-1">
+												<div class="box box4 two-rows two-cols panel-news-visuel" id="panel-news-visuel-1">
+							<a href="/fond-territorial-accessibilite" target="_blank"><img src="http://www.cher.cci.fr/sites/cher.cci.fr/files/styles/actu_une_quadruple/public/carrousel/accessibilit%C3%A92.png?itok=g5cXThq7" width="500" height="368" alt="" /></a>							<div class="caption">
+								<h4><a href="/fond-territorial-accessibilite" target="_blank">Fond Territorial d&#039;Accessibilité</a>								</h4>
+								<p>Une aide pour financer la mise en conformité aux normes d’accessibilité</p>
+							</div>
+						</div>
+																		<div class="box box4 two-rows two-cols panel-news-visuel" id="panel-news-visuel-2">
+							<a href="http://www.cher.cci.fr/ChamberSign" target="_blank"><img src="http://www.cher.cci.fr/sites/cher.cci.fr/files/styles/actu_une_quadruple/public/carrousel/chambersign-visuel-site-web-cci-cher_0.png?itok=lADXpklG" width="500" height="368" alt="" /></a>							<div class="caption">
+								<h4><a href="http://www.cher.cci.fr/ChamberSign" target="_blank">Pensez à ChamberSign pour votre identité numérique professionnelle ! </a>								</h4>
+								<p>ChamberSign France, autorité de certification, identité et signature numérique, certificat électronique.</p>
+							</div>
+						</div>
+																	</div>
+				
+								
+															<div class="box box4" style="background:#000000">
+							<h4><a href="/vos-contacts-cci18">&gt;&gt; Votre CCI déménage</a>							</h4>
+														<p>Retrouvez-nous au 14 allée Charles Pathé - Bâtiment B - Zac de l'échangeur à Bourges ou contactez en direct vos conseillers
+
+
+</p>
+						</div>
+											<div class="box box4" style="background:#009ee0">
+							<h4><a href="http://www.cher.cci.fr/parcours-entreprendre-informations-collectives">&gt;&gt; Calendrier : Réunions d&#039;information collective</a>							</h4>
+														<p>Les dates de 2025 sont disponibles ! 
+Participez aux réunions d'information collective pour en savoir plus sur l'offre de la CCI du Cher pour vous accompagner votre projet de création / reprise d'entreprise !</p>
+						</div>
+											<div class="box box4" style="background:#2ab4ad">
+							<h4><a href="/accelerez-vos-transitions" target="_blank">&gt;&gt; Accélérez vos transitions !</a>							</h4>
+														<p>Les transitions numérique, écologique et des ressources humaines sont devenues des impératifs pour rester compétitif. Le réseau des CCI CVL vous accompagne !</p>
+						</div>
+											<div class="box box4" style="background:#5b5b5b">
+							<h4><a href="http://www.cher.cci.fr/parcours-repreneur-cedant" target="_blank">&gt;&gt; Transmission d&#039;entreprise</a>							</h4>
+														<p>Dirigeant.e.s, soyez accompagné.e.s dans votre transmission d'entreprise avec la #CCIduCHER ! </p>
+						</div>
+													
+			</div> <!-- End Panel 2 -->
+									
+		</div>
+
+	</div>
+	
+	
+
+</div>						
+							<div class="container clearfix" id="guides-pratiques"><script type="text/javascript">
+	$(document).ready( function() {
+		$('#slide-guide-177').localScroll({
+			target:'#slide-guide-content-177',
+			axis:'xy',
+			queue:true
+		});
+	});
+</script>
+<div id="node-177" class="node node-zone-remontee node-promoted view-mode-full clearfix">
+	<h3>Vos démarches</h3>
+	
+	<div class="grid-guide slide-panel" id="slide-guide-content-177">
+		<div class="field field-name-field-contenus field-type-node-reference field-label-hidden">
+    <div class="field-items">
+    				<div class="panel" id="panel-guide-1">
+					<div class="box first field-item even"><a href="http://www.cher.cci.fr/parcours-entreprendre-informations-collectives"><div class="field field-name-field-visuel field-type-image field-label-hidden"><div class="field-items"><div class="field-item even"><img src="http://www.cher.cci.fr/sites/cher.cci.fr/files/styles/produit_cover/public/vignette-parcours-entreprendre%20-%20V2.jpg?itok=hgnqcmDk" width="237" height="151" alt="parcours-entreprendre" /></div></div></div></a><h4><a href="http://www.cher.cci.fr/parcours-entreprendre-informations-collectives" class="shop-title">Vous avez un projet de création/reprise ? </a></h4>
+<div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even"><p>Créateurs, repreneurs d'entreprise, inscrivez-vous à la prochaine information collective pour en savoir plus sur les accompagnements de la CCI du Cher.&nbsp;</p></div></div></div></div>
+		    					<div class="box field-item odd"><a href="/formalites-entreprises-specifiques"><div class="field field-name-field-visuel field-type-image field-label-hidden"><div class="field-items"><div class="field-item even"><img src="http://www.cher.cci.fr/sites/cher.cci.fr/files/styles/produit_cover/public/Formalites-intern-prof-reg-vf.jpg?itok=YlSlGEcO" width="237" height="151" alt="" /></div></div></div></a><h4><a href="/formalites-entreprises-specifiques" class="shop-title">Effectuez vos démarches pour...</a></h4>
+<div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even"><p>.. Exporter, Exercer une activité immobilière, Devenir commerçant&nbsp;ambulant</p></div></div></div></div>
+		    					<div class="box field-item even"><a href="https://forms.office.com/r/kVmaziFBcy"><div class="field field-name-field-visuel field-type-image field-label-hidden"><div class="field-items"><div class="field-item even"><img src="http://www.cher.cci.fr/sites/cher.cci.fr/files/styles/produit_cover/public/The-Place-by-CCI18.png?itok=-TMGINIS" width="237" height="151" alt="" /></div></div></div></a><h4><a href="https://forms.office.com/r/kVmaziFBcy" class="shop-title">Vous êtes entrepreneur et avez un projet innovant ?</a></h4>
+<div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even"><p>Rejoignez The Place by CCI18 ! Complétez le formulaire en ligne, les équipes The Place by CCI18 vous proposeront l'accompagnement le plus adapté</p></div></div></div></div>
+		    					<div class="box last field-item odd"><a href="http://www.cher.cci.fr/referente-handicap"><div class="field field-name-field-visuel field-type-image field-label-hidden"><div class="field-items"><div class="field-item even"><img src="http://www.cher.cci.fr/sites/cher.cci.fr/files/styles/produit_cover/public/Accessibilite.png?itok=7HcJMJOO" width="237" height="151" alt="" /></div></div></div></a><h4><a href="http://www.cher.cci.fr/referente-handicap" class="shop-title">Accessibilité</a></h4>
+<div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even"><p>La CCI du Cher est <span style="color:rgb(65, 65, 65)">activement engagée dans une politique d'accueil et d'accompagnement des personnes en situation de handicap. </span></p></div></div></div></div>
+				</div>
+		      </div>
+</div>	</div>
+		
+	</div>
+</div>						
+							<div class="container"><div class="container clearfix rebond-agenda-twitter" id="agendas">
+	<div class="events-box">
+					<a href="http://www.cher.cci.fr/agenda" target="">
+				<h4 class="box-title green">Agenda			<span class="pictogramme"><img src="http://www.cher.cci.fr/sites/cher.cci.fr/files/styles/pictogramme_rebond_accueil/public/picto-agenda_0.png?itok=e131d1U5" width="23" height="25" alt="" /></span>
+		</h4>
+					</a>
+				
+		
+<div class="field field-name-field-evenements field-type-node-reference field-label-hidden">
+    <div class="field-items">
+          <div class="box field-item even"><div id="node-859" class="node node-cci-evenement node-promoted view-mode-rebond_home clearfix">
+
+		<p class="agendas-date"><span>31 Octobre</span> - BOURGES</p>
+	<h5><a href="/cyber-event">Cyber Event</a></h5>
+	<div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even">Plongez dans l&#039;univers de la cybersécurité !</div></div></div>	
+</div></div>
+          <div class="box field-item odd"><div id="node-860" class="node node-cci-evenement node-promoted view-mode-rebond_home clearfix">
+
+		<p class="agendas-date"><span>05 Novembre</span> - BOURGES</p>
+	<h5><a href="/agenda/lia-une-alli%C3%A9e-pour-la-croissance-de-votre-entreprise">L&#039;IA : une alliée pour la croissance de votre entreprise</a></h5>
+	<div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even"> Comment l’Intelligence Artificielle peut être un outil de soutien pour les entreprises</div></div></div>	
+</div></div>
+      </div>
+</div>
+		<div class="clearfix"></div>
+		<div class="field field-name-field-link-more-rebond-agenda field-type-link-field field-label-hidden"><div class="field-items"><div class="field-item even"><a href="http://www.cher.cci.fr/agenda" class="link green right">Tous les événements</a></div></div></div>	</div>
+	
+		<div class="twitter-box">
+		<a class="twitter-timeline" href="https://twitter.com/cciducher" data-widget-id="468322639144951809">CCI France</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+	</div>
+		
+		
+	
+	
+	<div class="clearfix"></div>
+</div></div>						
+							<script type="text/javascript">
+	$(document).ready( function() {
+		$('#slide-shop-157').localScroll({
+			target:'#slide-shop-content-157',
+			axis:'xy',
+			queue:true
+		});
+	});
+</script>
+<div id="shop-wrap">
+	<div id="node-157" class="node node-zone-produits node-promoted view-mode-full clearfix">
+		<div class="container clearfix">
+			<h3>Liens utiles</h3>
+									<ul class="nav-panel" id="slide-shop-157">
+													<li class="current"><a href="#panel-shop-1">1</a></li>
+									<li class=""><a href="#panel-shop-2">2</a></li>
+							</ul>
+					</div>
+
+		<div id="shop-content-wrap">
+			<div class="container clearfix" id="shop">
+
+				<div class="slide-panel" id="slide-shop-content-157">
+					
+					<div class="field field-name-field-produits field-type-node-reference field-label-hidden">
+    <div class="field-items">
+    				<div class="panel grid-guide" id="panel-shop-1">
+					<div class="box first field-item even"><a href="https://georgia-agro-innovation.fr/" target="_blank" class="shop-img"><div class="field field-name-field-visuel-produit field-type-image field-label-hidden"><div class="field-items"><div class="field-item even"><img src="http://www.cher.cci.fr/sites/cher.cci.fr/files/produits/Georgia%20-%20237x90%20px.jpg" width="237" height="90" alt="" /></div></div></div></a><div class="shop-descr">
+	<a href="https://georgia-agro-innovation.fr/" target="_blank" class="shop-title">Projet agro-innovant</a>	<p><div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even"><p>La cellule d'accélération&nbsp;GEORGIA&nbsp;vous accompagne !</p></div></div></div></p>
+</div></div>
+		    					<div class="box field-item odd"><a href="http://les-aides.fr/" target="_blank" class="shop-img"><div class="field field-name-field-visuel-produit field-type-image field-label-hidden"><div class="field-items"><div class="field-item even"><img src="http://www.cher.cci.fr/sites/cher.cci.fr/files/produits/Les%20aides.jpg" width="237" height="90" alt="Les Aides" /></div></div></div></a><div class="shop-descr">
+	<a href="http://les-aides.fr/" target="_blank" class="shop-title">Les Aides</a>	<p><div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even"><p>Toutes les aides en 1 clic pour votre entreprise</p></div></div></div></p>
+</div></div>
+		    					<div class="box field-item even"><a href="http://www.ecole-curien.fr/" target="_blank" class="shop-img"><div class="field field-name-field-visuel-produit field-type-image field-label-hidden"><div class="field-items"><div class="field-item even"><img src="http://www.cher.cci.fr/sites/cher.cci.fr/files/produits/ECOLE-CURIEN_0.png" width="240" height="87" alt="ecole curien" /></div></div></div></a><div class="shop-descr">
+	<a href="http://www.ecole-curien.fr/" target="_blank" class="shop-title">Ecole Curien</a>	<p><div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even"><p>Diplôme d'ingénieur INSA Centre Val de Loire en apprentissage</p></div></div></div></p>
+</div></div>
+		    					<div class="box last field-item odd"><a href="http://www.estacom.fr/" target="_blank" class="shop-img"><div class="field field-name-field-visuel-produit field-type-image field-label-hidden"><div class="field-items"><div class="field-item even"><img src="http://www.cher.cci.fr/sites/cher.cci.fr/files/produits/estacom_0.png" width="240" height="86" alt="estacom" /></div></div></div></a><div class="shop-descr">
+	<a href="http://www.estacom.fr/" target="_blank" class="shop-title">Estacom</a>	<p><div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even"><p>École Supérieure de Communication &amp;&nbsp;Marketing</p></div></div></div></p>
+</div></div>
+				</div>
+		    				<div class="panel grid-guide" id="panel-shop-2">
+					<div class="box first field-item even"><a href="http://interreseaux18.net/" target="_blank" class="shop-img"><div class="field field-name-field-visuel-produit field-type-image field-label-hidden"><div class="field-items"><div class="field-item even"><img src="http://www.cher.cci.fr/sites/cher.cci.fr/files/produits/interreseaux.png" width="228" height="90" alt="inter-reseaux" /></div></div></div></a><div class="shop-descr">
+	<a href="http://interreseaux18.net/" target="_blank" class="shop-title">Inter-réseaux</a>	<p><div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even"><p>Renforcer l'attractivité du territoire au travers des réseaux existants du Cher.&nbsp;</p></div></div></div></p>
+</div></div>
+		    					<div class="box field-item odd"><a href="http://www.campus-centre.fr/" target="_blank" class="shop-img"><div class="field field-name-field-visuel-produit field-type-image field-label-hidden"><div class="field-items"><div class="field-item even"><img src="http://www.cher.cci.fr/sites/cher.cci.fr/files/produits/Campus%20Centre.jpg" width="237" height="90" alt="Campus Centre" title="Campus Centre" /></div></div></div></a><div class="shop-descr">
+	<a href="http://www.campus-centre.fr/" target="_blank" class="shop-title">Campus Centre</a>	<p><div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even"><p>Centre de formation par apprentissage, formation professionnelle continue</p></div></div></div></p>
+</div></div>
+		    					<div class="box field-item even"><a href="https://www.ifabourges.fr/" target="_blank" class="shop-img"><div class="field field-name-field-visuel-produit field-type-image field-label-hidden"><div class="field-items"><div class="field-item even"><img src="http://www.cher.cci.fr/sites/cher.cci.fr/files/produits/IFA%20Bourges.jpg" width="240" height="89" alt="IFA Bourges" /></div></div></div></a><div class="shop-descr">
+	<a href="https://www.ifabourges.fr/" target="_blank" class="shop-title">IFA Bourges</a>	<p><div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even"><p>Institut de Formation en Alternance du Cher&nbsp;</p></div></div></div></p>
+</div></div>
+				</div>
+		      </div>
+</div>					
+				</div>
+			
+				<div class="content">
+				<span class="print-link"></span>				</div>
+
+			</div>
+		</div>
+	</div>
+</div>						
+			
+				
+		
+				
+				
+	</div>
+
+	<div id="footer">
+		<div id="footer-bg-left"></div>
+		<div id="footer-bg-right"></div>
+		<div id="footer-content" class="container clearfix">
+			<div id="footer-link">
+				  <footer id="footer" class="region region-footer">
+    <div id="block-menu-block-1" class="block block-menu-block first last odd" role="navigation">
+
+        <h2 class="block__title block-title">Plan du site</h2>
+    
+  <div class="menu-block-wrapper menu-block-1 menu-name-main-menu parent-mlid-0 menu-level-1">
+  <ul class="menu niv1"><li class="menu__item is-expanded first expanded menu-mlid-1067 have-child"><a href="/creation-reprise-cession" class="menu__link"><span>Création reprise et <br/>cession d'entreprise</span></a><span class="mobileToggle close"></span><ul class="menu niv2"><li class="menu__item is-parent is-leaf first leaf has-children menu-mlid-1448"><a href="/parcours-entreprendre-decouvrez-entrepreneuriat" class="menu__link"><span>Découvrez l'entrepreneuriat</span></a></li>
+<li class="menu__item is-parent is-leaf leaf has-children menu-mlid-1066"><a href="/creer-votre-entreprise" class="menu__link"><span>Formez-vous à la création / reprise !</span></a></li>
+<li class="menu__item is-parent is-leaf leaf has-children menu-mlid-1452"><a href="/parcours-entreprendre-aides" class="menu__link"><span>Financez votre projet</span></a></li>
+<li class="menu__item is-parent is-leaf leaf has-children menu-mlid-1447"><a href="/rendez-vous-experts" class="menu__link"><span>Rendez-vous experts</span></a></li>
+<li class="menu__item is-parent is-leaf leaf has-children menu-mlid-1450"><a href="/parcours-entreprendre-transmission" class="menu__link"><span>Transmission</span></a></li>
+<li class="menu__item is-parent is-leaf last leaf has-children menu-mlid-1451"><a href="/parcours-entreprendre-formalites" class="menu__link"><span>Formalités</span></a></li>
+</ul><a class="mean-expand" href="#" style="font-size: auto">+</a></li>
+<li class="menu__item is-expanded expanded menu-mlid-1081 have-child"><a href="/developpement-entreprise" class="menu__link"><span>Développement de votre entreprise</span></a><span class="mobileToggle close"></span><ul class="menu niv2"><li class="menu__item is-leaf first leaf menu-mlid-1362"><a href="/financement-developpement" class="menu__link"><span>Financer votre développement</span></a></li>
+<li class="menu__item is-leaf leaf menu-mlid-1407"><a href="/the-place-by-cci18" class="menu__link"><span>The Place by CCI18</span></a></li>
+<li class="menu__item is-parent is-leaf leaf has-children menu-mlid-1377"><a href="/innovation" class="menu__link"><span>Développer votre innovation</span></a></li>
+<li class="menu__item is-parent is-leaf leaf has-children menu-mlid-1386"><a href="/industrie-du-futur" class="menu__link"><span>Industrie du Futur</span></a></li>
+<li class="menu__item is-parent is-leaf leaf has-children menu-mlid-1014"><a href="/accompagner-la-gestion-de-vos-rh-et-de-vos-recrutements" class="menu__link"><span>Accompagner la gestion de vos RH et de vos recrutements</span></a></li>
+<li class="menu__item is-parent is-leaf leaf has-children menu-mlid-1013"><a href="/economie-numerique" class="menu__link"><span>Se développer avec l'économie numérique</span></a></li>
+<li class="menu__item is-leaf leaf menu-mlid-1022"><a href="/integrer-reseau-entreprises" class="menu__link"><span>Intégrer un réseau économique</span></a></li>
+<li class="menu__item is-parent is-leaf leaf has-children menu-mlid-1359"><a href="/se-developper-international" class="menu__link"><span>Se développer à l'international</span></a></li>
+<li class="menu__item is-parent is-leaf leaf has-children menu-mlid-1083"><a href="/developper-activites-commerce-tourisme" class="menu__link"><span>Développer les activités du commerce et du tourisme</span></a></li>
+<li class="menu__item is-parent is-leaf leaf has-children menu-mlid-1335"><a href="/ameliorer-performance" class="menu__link"><span>Améliorer la performance</span></a></li>
+<li class="menu__item is-leaf leaf menu-mlid-1093"><a href="/effectuer-formalites-modifications" class="menu__link"><span>Effectuer vos formalités de modification</span></a></li>
+<li class="menu__item is-leaf leaf menu-mlid-1460"><a href="/accelerez-vos-transitions" class="menu__link"><span>ACCÉLÉREZ VOS TRANSITIONS</span></a></li>
+<li class="menu__item is-leaf leaf menu-mlid-1415"><a href="/grand-carenage" class="menu__link"><span>CCI BUSINESS : ACCEDEZ AUX MARCHES DU NUCLEAIRE</span></a></li>
+<li class="menu__item is-parent is-leaf last leaf has-children menu-mlid-1435"><a href="/developpement-durable" class="menu__link"><span>Développement durable</span></a></li>
+</ul><a class="mean-expand" href="#" style="font-size: auto">+</a></li>
+<li class="menu__item is-expanded expanded menu-mlid-1270 have-child"><a href="/formation" class="menu__link"><span>Formation</span></a><span class="mobileToggle close"></span><ul class="menu niv2"><li class="menu__item is-parent is-leaf first leaf has-children menu-mlid-1414"><a href="/cci-formation-18" class="menu__link"><span>CCI Formation18</span></a></li>
+<li class="menu__item is-leaf leaf menu-mlid-1416"><a href="/mediation-apprentissage" class="menu__link"><span>Médiation de l'apprentissage</span></a></li>
+<li class="menu__item is-leaf leaf menu-mlid-1437"><a href="https://www.estacom.fr/" class="menu__link"><span>Estacom</span></a></li>
+<li class="menu__item is-leaf leaf menu-mlid-1438"><a href="http://www.ecole-curien.fr/" class="menu__link"><span>CFSA Hubert Curien</span></a></li>
+<li class="menu__item is-leaf leaf menu-mlid-1092"><a href="/residence-etudiante-louis-mallet" class="menu__link"><span>Résidence étudiante Louis Mallet</span></a></li>
+<li class="menu__item is-leaf leaf menu-mlid-1436"><a href="/nouveau-campus-cci" class="menu__link"><span>Nouveau Campus CCI</span></a></li>
+<li class="menu__item is-leaf last leaf menu-mlid-1458"><a href="/taxe-dapprentissage-2024" class="menu__link"><span>Taxe d'apprentissage 2024</span></a></li>
+</ul><a class="mean-expand" href="#" style="font-size: auto">+</a></li>
+<li class="menu__item is-expanded expanded menu-mlid-1404 have-child"><a href="/information-economique" class="menu__link"><span>Information <br/>Economique</span></a><span class="mobileToggle close"></span><ul class="menu niv2"><li class="menu__item is-parent is-leaf first leaf has-children menu-mlid-1417"><a href="/aides-entreprises-coronavirus" class="menu__link"><span>[Covid-19] Aides aux entreprises</span></a></li>
+<li class="menu__item is-leaf leaf menu-mlid-1277"><a href="/fichiers-entreprises" class="menu__link"><span>Fichiers d'entreprises</span></a></li>
+<li class="menu__item is-parent is-leaf last leaf has-children menu-mlid-1395"><a href="/abonnements-newsletters" class="menu__link"><span>S'abonner à nos newsletters</span></a></li>
+</ul><a class="mean-expand" href="#" style="font-size: auto">+</a></li>
+<li class="menu__item is-expanded last expanded menu-mlid-1403 have-child"><a href="/connaitre-cci-cher" class="menu__link"><span>Votre CCI</span></a><span class="mobileToggle close"></span><ul class="menu niv2"><li class="menu__item is-leaf first leaf menu-mlid-1054"><a href="/bureau-cci-18" class="menu__link"><span>Bureau de la CCI 18</span></a></li>
+<li class="menu__item is-leaf leaf menu-mlid-1032"><a href="/membres-titulaires-cci-18" class="menu__link"><span>Membres titulaires de la CCI 18</span></a></li>
+<li class="menu__item is-leaf leaf menu-mlid-1053"><a href="/membres-associes-cci-18" class="menu__link"><span>Membres associés de la CCI 18</span></a></li>
+<li class="menu__item is-leaf leaf menu-mlid-1052"><a href="/conseillers-techniques-cci-18" class="menu__link"><span>Conseillers techniques de la CCI 18</span></a></li>
+<li class="menu__item is-leaf leaf menu-mlid-1271"><a href="/comptes-annuels" class="menu__link"><span>Comptes annuels</span></a></li>
+<li class="menu__item is-leaf leaf menu-mlid-1076"><a href="/subventions-associations" class="menu__link"><span>Subventions accordées aux associations</span></a></li>
+<li class="menu__item is-leaf last leaf menu-mlid-1075"><a href="/consulter-appels-offres" class="menu__link"><span>Consulter les appels d'offres</span></a></li>
+</ul><a class="mean-expand" href="#" style="font-size: auto">+</a></li>
+</ul></div>
+
+</div>
+  </footer>
+			</div>
+			<div id="footer-contact">
+				  <div class="region region-footer-aside">
+    <div id="block-menu-menu-menu-footer-social" class="block block-menu first odd" role="navigation">
+
+        <h2 class="block__title block-title">Restez connectés</h2>
+    
+  <ul class="menu niv1"><li class="menu__item is-leaf first leaf"><a href="https://www.facebook.com/cciducher" title="Facebook" class="menu__link social-facebook"><img src="http://www.cher.cci.fr/sites/cher.cci.fr/files/styles/pictogramme_menu/public/facebook-grey.png?itok=8Q_y1PaM" width="8" height="15" alt="" /></a></li>
+<li class="menu__item is-leaf leaf"><a href="https://twitter.com/CCIduCHER" title="Twitter" class="menu__link social-twitter"><img src="http://www.cher.cci.fr/sites/cher.cci.fr/files/styles/pictogramme_menu/public/twitter-grey.png?itok=OkNSvutC" width="19" height="15" alt="" /></a></li>
+<li class="menu__item is-leaf leaf"><a href="https://www.linkedin.com/company/cci-du-cher" title="Linkedin" class="menu__link"><img src="http://www.cher.cci.fr/sites/cher.cci.fr/files/styles/pictogramme_menu/public/linkedin-icon-gris.jpg?itok=aj1SYomU" width="15" height="15" alt="" /></a></li>
+<li class="menu__item is-leaf leaf"><a href="http://fr.viadeo.com/fr/company/cci-du-cher" title="Viadeo" class="menu__link social-vimeo"><img src="http://www.cher.cci.fr/sites/cher.cci.fr/files/styles/pictogramme_menu/public/viadeo-gris.jpg?itok=FTqkz7Tt" width="15" height="15" alt="" /></a></li>
+<li class="menu__item is-leaf leaf"><a href="http://www.youtube.com/user/cciducher" title="YouTube" class="menu__link"><img src="http://www.cher.cci.fr/sites/cher.cci.fr/files/styles/pictogramme_menu/public/logo-youtube-gris%20copie.jpg?itok=QpNPSPoS" width="28" height="15" alt="" /></a></li>
+<li class="menu__item is-leaf last leaf"><a href="http://fr.slideshare.net/cciducher" title="Slideshare" class="menu__link"><img src="http://www.cher.cci.fr/sites/cher.cci.fr/files/styles/pictogramme_menu/public/Slideshare3.jpg?itok=4ksd1Nwd" width="14" height="15" alt="" /></a></li>
+</ul>
+</div>
+<div id="block-menu-menu-reseau-cci" class="block block-menu last even" role="navigation">
+
+        <h2 class="block__title block-title">Votre réseau CCI</h2>
+    
+  <ul class="menu niv1"><li class="menu__item is-leaf first leaf"><a href="http://www.centre.cci.fr/" class="menu__link">CCI Centre-Val de Loire</a></li>
+<li class="menu__item is-leaf leaf"><a href="http://www.cci28.fr/" class="menu__link">CCI Eure-et-Loir</a></li>
+<li class="menu__item is-leaf leaf"><a href="http://www.indre.cci.fr/" class="menu__link">CCI Indre</a></li>
+<li class="menu__item is-leaf leaf"><a href="http://www.loir-et-cher.cci.fr/" class="menu__link">CCI Loir-et-Cher</a></li>
+<li class="menu__item is-leaf leaf"><a href="http://www.loiret.cci.fr/" class="menu__link">CCI Loiret</a></li>
+<li class="menu__item is-leaf last leaf"><a href="http://www.touraine.cci.fr/" class="menu__link">CCI Touraine</a></li>
+</ul>
+</div>
+  </div>
+			</div>
+		</div>
+		<div id="footer-bottom">
+			  <div class="region region-bottom">
+    <div id="block-menu-menu-mentions-bas-de-page" class="block block-menu first last odd" role="navigation">
+  <div class="content">
+    <ul class="menu niv1"><li class="menu__item is-leaf first leaf"><a href="/mentions-legales" class="menu__link">Mentions légales</a></li>
+<li class="menu__item is-leaf leaf"><a href="/cgv" class="menu__link">CGV</a></li>
+<li class="menu__item is-leaf leaf"><a href="/donnees-personnelles" class="menu__link">Données personnelles</a></li>
+<li class="menu__item is-leaf leaf"><a href="mailto:beatrice.drurie@cher.cci.fr" class="menu__link">Nous contacter</a></li>
+<li class="menu__item is-leaf last leaf"><a href="mailto:nathalie.bonnard@cher.cci.fr" class="menu__link">Référente handicap</a></li>
+</ul>  </div>
+</div>  </div>
+		</div>
+	</div>
+
+
+</div><!-- /#page -->  </body>
+</html>
