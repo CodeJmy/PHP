@@ -6,9 +6,9 @@ if(isset($_POST['submit2']))
     {
         if(verifierMembres($_POST['email'], $_POST['password']) == true)
         {
-            genererToken();
+            $token = genererToken();
             // Je redirige vers la page membres
-            header('location:index.php?route=membres');
+            header('location:index.php?route=membres&token='.$token);
         }
         else
         {
