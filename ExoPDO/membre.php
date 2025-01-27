@@ -1,7 +1,11 @@
 <?php
 session_start();
 require('db.php');
-
+echo $_COOKIE['userNom'].'<br>';
+echo $_COOKIE['userPrenom'].'<br>';
+echo $_COOKIE['userMail'].'<br>';
+echo $_COOKIE['userMdp'].'<br>';
+echo $_COOKIE['userId'];
 
 // Je récupère mon token
 if(isset($_GET['token']) && !empty($_GET['token'])){
@@ -22,6 +26,7 @@ if(verifierToken($token) == false){
     header('location:login.html');
     exit;
 }
+
 if(isset($_POST['submit'])){
     // Je prépare ma requête SQL
     $sql = 'SELECT * FROM utilisateurs';
