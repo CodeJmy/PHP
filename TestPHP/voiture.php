@@ -1,10 +1,11 @@
 <?php
 class voiture {
-    // Propriétés
+    // Propriétés / Attributs
     private $marque;
     private $modele;
     private $couleur;
     
+    // Constructeur / Méthodes
     public function MakeVoiture($marque, $modele, $couleur)
         {
             $this->marque = $marque;
@@ -39,6 +40,7 @@ try
 {
     $voiture = new voiture();
     $voiture->MakeVoiture("Ford", "Mustang", "rouge");
+    $voiture->setmodele($prenom = "Fiesta");
     echo $voiture->afficherInformationsVoiture();
 }
  catch (Exception $e) {
